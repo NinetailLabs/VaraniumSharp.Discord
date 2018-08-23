@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaraniumSharp.Discord", "VaraniumSharp.Discord\VaraniumSharp.Discord.csproj", "{86B35624-5277-433B-8C6A-6F204ABE7D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaraniumSharp.Discord.Tests", "VaraniumSharp.Discord.Tests\VaraniumSharp.Discord.Tests.csproj", "{2683D8F1-9A81-4E41-8F9F-F95DE97620C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B35624-5277-433B-8C6A-6F204ABE7D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B35624-5277-433B-8C6A-6F204ABE7D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B35624-5277-433B-8C6A-6F204ABE7D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B35624-5277-433B-8C6A-6F204ABE7D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2683D8F1-9A81-4E41-8F9F-F95DE97620C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2683D8F1-9A81-4E41-8F9F-F95DE97620C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2683D8F1-9A81-4E41-8F9F-F95DE97620C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2683D8F1-9A81-4E41-8F9F-F95DE97620C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860127AE-9D7A-46DE-8154-AA52175F0D2E}
+	EndGlobalSection
+EndGlobal
