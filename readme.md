@@ -7,6 +7,9 @@
 VaraniumSharp.Discord is a VaraniumSharp add-on that wraps around [Discord.Net](https://www.nuget.org/packages/Discord.Net) that implements all logic required to manage a basic Discord socket bot.
 This leaves only the creation of commands to the implementer without the bot management boilerplate code having to be rewritten.
 
+## Documentation
+Documentation can be found [here](https://ninetaillabs.github.io/VaraniumSharp.Discord/)
+
 ## Requirements
 - Dependency Injection container that implements IServiceProvider as it is used by the bot to resolve commands
 - Implementer must set the `TokenType` and `Token` properties in the `DiscordBotConfig` class
@@ -16,3 +19,6 @@ This leaves only the creation of commands to the implementer without the bot man
 The framework uses the [VaraniumSharp](https://www.nuget.org/packages/VaraniumSharp/) `StaticLogger` for logging log messages from Discord. The `StaticLogger` 
 uses [Microsoft.Extensions.Logging.Abstractions](https://www.nuget.org/packages/Microsoft.Extensions.Logging.Abstractions/) for logging so any logger that has a provider 
 for it (like [Serilog.Extensions.Logging](https://www.nuget.org/packages/Serilog.Extensions.Logging/)) can be used to get the log messages.
+
+## Icon
+[Sprout](https://thenounproject.com/term/sprout/607325/) by [parkjisun](https://thenounproject.com/naripuru/) from the Noun Project 
