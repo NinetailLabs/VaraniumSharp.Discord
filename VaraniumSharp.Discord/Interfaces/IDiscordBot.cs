@@ -1,4 +1,5 @@
 ﻿using Discord.WebSocket;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace VaraniumSharp.Discord.Interfaces
@@ -14,6 +15,12 @@ namespace VaraniumSharp.Discord.Interfaces
         /// Start the Discord client
         /// </summary>
         Task StartAsync();
+
+        /// <summary>
+        /// Start the bot and install commands from the specified assembly if the commands have not been installed already
+        /// </summary>
+        /// <param name="assembly">Assembly where the commands are located. Pass null to use the executing Assembly</param>
+        Task StartAsync(Assembly assembly);
 
         /// <summary>
         /// Stop the Discord client
