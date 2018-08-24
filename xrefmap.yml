@@ -32,6 +32,12 @@ references:
   commentId: M:VaraniumSharp.Discord.DiscordBot.StartAsync
   fullName: VaraniumSharp.Discord.DiscordBot.StartAsync()
   nameWithType: DiscordBot.StartAsync()
+- uid: VaraniumSharp.Discord.DiscordBot.StartAsync(System.Reflection.Assembly)
+  name: StartAsync(Assembly)
+  href: api/VaraniumSharp.Discord.DiscordBot.html#VaraniumSharp_Discord_DiscordBot_StartAsync_System_Reflection_Assembly_
+  commentId: M:VaraniumSharp.Discord.DiscordBot.StartAsync(System.Reflection.Assembly)
+  fullName: VaraniumSharp.Discord.DiscordBot.StartAsync(System.Reflection.Assembly)
+  nameWithType: DiscordBot.StartAsync(Assembly)
 - uid: VaraniumSharp.Discord.DiscordBot.StartAsync*
   name: StartAsync
   href: api/VaraniumSharp.Discord.DiscordBot.html#VaraniumSharp_Discord_DiscordBot_StartAsync_
@@ -147,6 +153,12 @@ references:
   commentId: M:VaraniumSharp.Discord.Interfaces.IDiscordBot.StartAsync
   fullName: VaraniumSharp.Discord.Interfaces.IDiscordBot.StartAsync()
   nameWithType: IDiscordBot.StartAsync()
+- uid: VaraniumSharp.Discord.Interfaces.IDiscordBot.StartAsync(System.Reflection.Assembly)
+  name: StartAsync(Assembly)
+  href: api/VaraniumSharp.Discord.Interfaces.IDiscordBot.html#VaraniumSharp_Discord_Interfaces_IDiscordBot_StartAsync_System_Reflection_Assembly_
+  commentId: M:VaraniumSharp.Discord.Interfaces.IDiscordBot.StartAsync(System.Reflection.Assembly)
+  fullName: VaraniumSharp.Discord.Interfaces.IDiscordBot.StartAsync(System.Reflection.Assembly)
+  nameWithType: IDiscordBot.StartAsync(Assembly)
 - uid: VaraniumSharp.Discord.Interfaces.IDiscordBot.StartAsync*
   name: StartAsync
   href: api/VaraniumSharp.Discord.Interfaces.IDiscordBot.html#VaraniumSharp_Discord_Interfaces_IDiscordBot_StartAsync_
