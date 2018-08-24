@@ -1,6 +1,4 @@
 ﻿using Discord;
-using Discord.Commands;
-using Discord.WebSocket;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Reflection;
@@ -8,7 +6,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using VaraniumSharp.Attributes;
 using VaraniumSharp.Discord.Interfaces;
-using VaraniumSharp.Discord.Wrappers;
 
 namespace VaraniumSharp.Discord
 {
@@ -30,7 +27,7 @@ namespace VaraniumSharp.Discord
 
             _discordSocketClient.Log += DiscordSocketClientOnLog;
             _discordSocketClient.MessageReceived += DiscordSocketClientOnMessageReceived;
-            _logger = VaraniumSharp.Logging.StaticLogger.GetLogger<DiscordBot>();
+            _logger = Logging.StaticLogger.GetLogger<DiscordBot>();
         }
 
         #endregion
@@ -40,8 +37,14 @@ namespace VaraniumSharp.Discord
         /// <inheritdoc />
         public async Task StartAsync()
         {
+            await StartAsync(null);
+        }
+
+        /// <inheritdoc />
+        public async Task StartAsync(Assembly assembly)
+        {
             _logger.LogDebug("DiscordBot starting");
-            await InstallModulesAsync();
+            await InstallModulesAsync(assembly ?? Assembly.GetExecutingAssembly());
             await _discordSocketClient.LoginAsync();
             await _discordSocketClient.StartAsync();
         }
@@ -115,7 +118,8 @@ namespace VaraniumSharp.Discord
         /// <summary>
         /// Install modules for <see cref="_commandService"/>
         /// </summary>
-        private async Task InstallModulesAsync()
+        /// <param name="assemblyContainingCommands">Assembly where bot commands are located</param>
+        private async Task InstallModulesAsync(Assembly assemblyContainingCommands)
         {
             try
             {
@@ -125,7 +129,8 @@ namespace VaraniumSharp.Discord
                     return;
                 }
 
-                await _commandService.AddModulesAsync(Assembly.GetExecutingAssembly());
+                _logger.LogDebug("Registering command from {Assembly}", assemblyContainingCommands);
+                await _commandService.AddModulesAsync(assemblyContainingCommands);
                 _modulesRegistered = true;
             }
             finally
