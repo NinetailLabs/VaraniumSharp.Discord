@@ -39,6 +39,7 @@ Task ("NugetPack")
         foreach(var project in projectFiles)
         {
             Information($"Generating NuGet package package for {project.Key}");
+            Information($"GitHash is {gitHash}");
             var nuspecFile = string.Format(nuspecFileString, project.Key);
 
             ReplaceRegexInFiles(nuspecFile, "0.0.0", version);
