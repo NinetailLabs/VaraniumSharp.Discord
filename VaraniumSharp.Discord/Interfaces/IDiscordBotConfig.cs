@@ -12,12 +12,12 @@ namespace VaraniumSharp.Discord.Interfaces
         /// <summary>
         /// Token for the Discord API
         /// </summary>
-        string Token { get; set; }
+        string Token { get; }
 
         /// <summary>
         /// Type of token to use for login
         /// </summary>
-        TokenType TokenType { get; set; }
+        TokenType TokenType { get; }
 
         #endregion
     }
