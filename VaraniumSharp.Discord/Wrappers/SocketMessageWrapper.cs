@@ -1,7 +1,9 @@
 ﻿using Discord.Commands;
 using Discord.WebSocket;
 using System.Diagnostics.CodeAnalysis;
+using Microsoft.Extensions.Logging;
 using VaraniumSharp.Discord.Interfaces;
+using VaraniumSharp.Logging;
 
 namespace VaraniumSharp.Discord.Wrappers
 {
@@ -16,6 +18,7 @@ namespace VaraniumSharp.Discord.Wrappers
         public SocketMessageWrapper(IDiscordBotConfig botConfig)
         {
             _botConfig = botConfig;
+            _logger = StaticLogger.GetLogger<SocketMessageWrapper>();
         }
 
         #endregion
@@ -39,9 +42,9 @@ namespace VaraniumSharp.Discord.Wrappers
             }
 
             if ((_botConfig.AcceptedCharPrefix != '\0' && !msg.HasCharPrefix(_botConfig.AcceptedCharPrefix, ref argPos))
-                || (!string.IsNullOrEmpty(_botConfig.AcceptedStringPrefix) && !msg.HasStringPrefix(_botConfig.AcceptedStringPrefix, ref argPos))
-                || !msg.HasMentionPrefix(discordSocketClient.CurrentUser, ref argPos))
+               || msg.HasMentionPrefix(discordSocketClient.CurrentUser, ref argPos))
             {
+                _logger.LogDebug("Skipping {message}", msg.Content);
                 return null;
             }
 
@@ -56,6 +59,8 @@ namespace VaraniumSharp.Discord.Wrappers
         /// BotConfig instance
         /// </summary>
         private readonly IDiscordBotConfig _botConfig;
+
+        private readonly ILogger _logger;
 
         #endregion
     }
