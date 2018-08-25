@@ -42,6 +42,7 @@ namespace VaraniumSharp.Discord.Wrappers
             }
 
             if ((_botConfig.AcceptedCharPrefix != '\0' && !msg.HasCharPrefix(_botConfig.AcceptedCharPrefix, ref argPos))
+               || (!string.IsNullOrEmpty(_botConfig.AcceptedStringPrefix) && !msg.HasStringPrefix(_botConfig.AcceptedStringPrefix, ref argPos))
                || msg.HasMentionPrefix(discordSocketClient.CurrentUser, ref argPos))
             {
                 _logger.LogDebug("Skipping {message}", msg.Content);
