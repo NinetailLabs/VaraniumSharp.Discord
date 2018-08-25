@@ -88,7 +88,7 @@ namespace VaraniumSharp.Discord.Wrappers
         /// <param name="arg">Received message</param>
         private Task DiscordSocketClientOnMessageReceived(SocketMessage arg)
         {
-            MessageReceived?.Invoke(this, new SocketMessageWrapper { SocketMessage = arg });
+            MessageReceived?.Invoke(this, new SocketMessageWrapper(_botConfig) { SocketMessage = arg });
             return Task.CompletedTask;
         }
 

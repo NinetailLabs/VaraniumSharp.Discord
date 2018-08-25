@@ -56,8 +56,8 @@ Param(
     [string[]]$ScriptArgs,
     [string]$Branch,
     [int]$BuildCounter,
+    [string]$GitHash,
     [string]$BuildConfiguration
-
 )
 
 [Reflection.Assembly]::LoadWithPartialName("System.Security") | Out-Null
@@ -128,16 +128,16 @@ if (!(Test-Path $PACKAGES_CONFIG)) {
     }
 }
 
-# Try find NuGet.exe in path if not exists
-if (!(Test-Path $NUGET_EXE)) {
-    Write-Verbose -Message "Trying to find nuget.exe in PATH..."
-    $existingPaths = $Env:Path -Split ';' | Where-Object { (![string]::IsNullOrEmpty($_)) -and (Test-Path $_ -PathType Container) }
-    $NUGET_EXE_IN_PATH = Get-ChildItem -Path $existingPaths -Filter "nuget.exe" | Select -First 1
-    if ($NUGET_EXE_IN_PATH -ne $null -and (Test-Path $NUGET_EXE_IN_PATH.FullName)) {
-        Write-Verbose -Message "Found in PATH at $($NUGET_EXE_IN_PATH.FullName)."
-        $NUGET_EXE = $NUGET_EXE_IN_PATH.FullName
-    }
-}
+# # Try find NuGet.exe in path if not exists
+# if (!(Test-Path $NUGET_EXE)) {
+#     Write-Verbose -Message "Trying to find nuget.exe in PATH..."
+#     $existingPaths = $Env:Path -Split ';' | Where-Object { (![string]::IsNullOrEmpty($_)) -and (Test-Path $_ -PathType Container) }
+#     $NUGET_EXE_IN_PATH = Get-ChildItem -Path $existingPaths -Filter "nuget.exe" | Select -First 1
+#     if ($NUGET_EXE_IN_PATH -ne $null -and (Test-Path $NUGET_EXE_IN_PATH.FullName)) {
+#         Write-Verbose -Message "Found in PATH at $($NUGET_EXE_IN_PATH.FullName)."
+#         $NUGET_EXE = $NUGET_EXE_IN_PATH.FullName
+#     }
+# }
 
 # Try download NuGet.exe if not exists
 if (!(Test-Path $NUGET_EXE)) {
@@ -235,9 +235,11 @@ if ($Mono) { $cakeArguments += "-mono" }
 $cakeArguments += $ScriptArgs
 if ($Branch) { $cakeArguments += "-branch=$Branch"}
 if ($BuildCounter) { $cakeArguments += "-buildCounter=$BuildCounter" }
+if ($GitHash) { $cakeArguments += "-gitHash=$GitHash" }
 if ($BuildConfiguration) { $cakeArguments += "-buildConfiguration=$BuildConfiguration" }
 
 # Start Cake
 Write-Host "Running build script..."
+Write-Host $cakeArguments
 &$CAKE_EXE $cakeArguments
 exit $LASTEXITCODE
