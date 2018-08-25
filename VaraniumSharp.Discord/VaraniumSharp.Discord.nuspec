@@ -16,6 +16,8 @@
     <releaseNotes>ReleaseNotesHere</releaseNotes>
     <tags>C# VaraniumSharp Varanium Discord.net Discord Bot</tags>
 
+    <repository type="git" url="https://github.com/NinetailLabs/VaraniumSharp.Discord" commit="GitHashHere" />
+
     <dependencies>
       <dependency id="Discord.Net" version="1.0.2" />
       <dependency id="VaraniumSharp" version="3.1.5" />

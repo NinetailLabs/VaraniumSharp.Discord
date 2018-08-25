@@ -56,8 +56,8 @@ Param(
     [string[]]$ScriptArgs,
     [string]$Branch,
     [int]$BuildCounter,
+    [string]$GitHash,
     [string]$BuildConfiguration
-
 )
 
 [Reflection.Assembly]::LoadWithPartialName("System.Security") | Out-Null
@@ -235,9 +235,11 @@ if ($Mono) { $cakeArguments += "-mono" }
 $cakeArguments += $ScriptArgs
 if ($Branch) { $cakeArguments += "-branch=$Branch"}
 if ($BuildCounter) { $cakeArguments += "-buildCounter=$BuildCounter" }
+if ($GitHash) { $cakeArguments += "-gitHash=$GitHash" }
 if ($BuildConfiguration) { $cakeArguments += "-buildConfiguration=$BuildConfiguration" }
 
 # Start Cake
 Write-Host "Running build script..."
+Write-Host $cakeArguments
 &$CAKE_EXE $cakeArguments
 exit $LASTEXITCODE
