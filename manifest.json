@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.DiscordBotConfig.html",
-          "hash": "Ew2YM3fN9oUywT/PPcGHqQ=="
+          "hash": "xFCjXoBJrIybe8TEFRbSwQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.IDiscordBotConfig.html",
-          "hash": "7VBkbszsUAnrm1DHslLbEQ=="
+          "hash": "yam9zY47lZx8iBLMEYuaxw=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Tests.DiscordBotTests.html",
-          "hash": "mDsQIiJKkIdhsVAUA73sZA=="
+          "hash": "3OKRCtjupo46N86A3DYI2A=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Wrappers.SocketMessageWrapper.html",
-          "hash": "1AUJ9kgeAeQ13fjzxK4jqw=="
+          "hash": "Bm66Rve5PgxBAoIrGCZBag=="
         }
       },
       "is_incremental": false,
@@ -287,22 +287,22 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
