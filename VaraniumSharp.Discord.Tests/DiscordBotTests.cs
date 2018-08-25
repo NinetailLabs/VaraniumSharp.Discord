@@ -69,7 +69,8 @@ namespace VaraniumSharp.Discord.Tests
         {
             // arrange
             var fixture = new DiscordBotFixture();
-            var messageDummy = new SocketMessageWrapper();
+            var botConfigDummy = new Mock<IDiscordBotConfig>();
+            var messageDummy = new SocketMessageWrapper(botConfigDummy.Object);
 
             var _ = fixture.GetInstance();
 

@@ -10,6 +10,16 @@ namespace VaraniumSharp.Discord.Interfaces
         #region Properties
 
         /// <summary>
+        /// Collection of character prefixes the bot looks for in messages (Set to \0 to ignore)
+        /// </summary>
+        char AcceptedCharPrefix { get; }
+
+        /// <summary>
+        /// Collection of string prefixes the bot looks for in messages
+        /// </summary>
+        string AcceptedStringPrefix { get; }
+
+        /// <summary>
         /// Token for the Discord API
         /// </summary>
         string Token { get; }
