@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.DiscordBot.html",
-          "hash": "r52HTbi0DeYgXMftETKf8w=="
+          "hash": "ZvSNE3qgxjsVBh0Nxx0cdg=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.DiscordBotConfig.html",
-          "hash": "xFCjXoBJrIybe8TEFRbSwQ=="
+          "hash": "XYommmMdRLFKszMDgjhEOQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.html",
-          "hash": "p4x0kTs9hfC/3tfUuCWVQw=="
+          "hash": "+JLnsFAV1MeLZ9BJTGagkw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.IDiscordBot.html",
-          "hash": "jCGaXo+cuOdWJwzE/nHnnA=="
+          "hash": "6FuH0laFBct2cfVgcq5J3w=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.IDiscordBotConfig.html",
-          "hash": "yam9zY47lZx8iBLMEYuaxw=="
+          "hash": "+bHSCA6cXnzNYx6hoWiOEA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.IDiscordSocketClientWrapper.html",
-          "hash": "EaNevg+V2se7fGLycAKhoQ=="
+          "hash": "dCVqtQw5YhBL4Pysx0H6hw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.ISocketMessageWrapper.html",
-          "hash": "xqHh5Dn0YxkerwjTS5mxDw=="
+          "hash": "OYDDfrwqyyoRP2FMsg5geg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.html",
-          "hash": "AWYkdO4JhfXlA+6QOPDQDw=="
+          "hash": "uW57FYqec3Ajq5fN9HxA+A=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Tests.DiscordBotTests.html",
-          "hash": "3OKRCtjupo46N86A3DYI2A=="
+          "hash": "0Kr32NysYXaVvdu0u6sqOA=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Tests.LoggerFixture.html",
-          "hash": "dNJDa6PjYu/WHMm0sXOchg=="
+          "hash": "OJZxYrCahiHlWcelKASZrw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Tests.html",
-          "hash": "gQtciU4S7HNfgnL+DGOdNw=="
+          "hash": "BB13qJOo5lco1Kq4akwzrA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.html",
-          "hash": "Ol7pcjQ7GA+Gmb5mf7mMYw=="
+          "hash": "VkZYTzg80Ie0TPZl5MIDsA=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Wrappers.DiscordSocketClientWrapper.html",
-          "hash": "fUjGJl+S0PHEWLEY2znNEg=="
+          "hash": "ab4dSAhWtA8OxWm4VRnHYg=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Wrappers.SocketMessageWrapper.html",
-          "hash": "5Ovprb1vNYBfSHqohBn9Pg=="
+          "hash": "ZrjDFW4+/EXGzAElqJm7MQ=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Wrappers.html",
-          "hash": "w8hUaQuY58XaNI5rajvk8w=="
+          "hash": "H9JVU+nPqh69YqVD39RVGg=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.html",
-          "hash": "S62kcvb6vobQvkaz6S9wMQ=="
+          "hash": "KSta6ZbjbS4DtXATP4jY1w=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "IACS7zqAWM9C6Uj463saAQ=="
+          "hash": "lQ9829oVFJ+9jvuejAjsWQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "UdwGOrC2DADt30rtE26eMA=="
+          "hash": "dezWBFn64EOJx5Qxch+aog=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "oTmIG9MDoAVQ8+/+kSDmsw=="
+          "hash": "FPgvb3ABQJlpwrkf7QhHPw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "gB8AESyvNru97tzIZofEEg=="
         }
       },
       "is_incremental": false,
@@ -260,7 +260,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "zMk843Pp8Y/+/O/BJuIRpw=="
+          "hash": "2VvNHLLc/YRQ65t0rSPY+g=="
         }
       },
       "is_incremental": false,
@@ -272,7 +272,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "1Xdjw8Ib7j95/TiJDj+CFw=="
+          "hash": "EIhwD2+o19OxxQFCB6JJTg=="
         }
       },
       "is_incremental": false,
@@ -284,26 +284,37 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build"
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
@@ -311,7 +322,9 @@
       "status": {
         "can_incremental": false,
         "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }
