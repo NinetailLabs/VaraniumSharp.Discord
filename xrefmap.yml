@@ -154,12 +154,12 @@ references:
   commentId: T:VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper
   fullName: VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper
   nameWithType: ICommandServiceWrapper
-- uid: VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly)
-  name: AddModulesAsync(Assembly)
-  href: api/VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.html#VaraniumSharp_Discord_Interfaces_ICommandServiceWrapper_AddModulesAsync_System_Reflection_Assembly_
-  commentId: M:VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly)
-  fullName: VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly)
-  nameWithType: ICommandServiceWrapper.AddModulesAsync(Assembly)
+- uid: VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly,System.IServiceProvider)
+  name: AddModulesAsync(Assembly, IServiceProvider)
+  href: api/VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.html#VaraniumSharp_Discord_Interfaces_ICommandServiceWrapper_AddModulesAsync_System_Reflection_Assembly_System_IServiceProvider_
+  commentId: M:VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly,System.IServiceProvider)
+  fullName: VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly, System.IServiceProvider)
+  nameWithType: ICommandServiceWrapper.AddModulesAsync(Assembly, IServiceProvider)
 - uid: VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.AddModulesAsync*
   name: AddModulesAsync
   href: api/VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.html#VaraniumSharp_Discord_Interfaces_ICommandServiceWrapper_AddModulesAsync_
@@ -573,12 +573,12 @@ references:
   isSpec: "True"
   fullName: VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.CommandServiceWrapper
   nameWithType: CommandServiceWrapper.CommandServiceWrapper
-- uid: VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly)
-  name: AddModulesAsync(Assembly)
-  href: api/VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.html#VaraniumSharp_Discord_Wrappers_CommandServiceWrapper_AddModulesAsync_System_Reflection_Assembly_
-  commentId: M:VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly)
-  fullName: VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly)
-  nameWithType: CommandServiceWrapper.AddModulesAsync(Assembly)
+- uid: VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly,System.IServiceProvider)
+  name: AddModulesAsync(Assembly, IServiceProvider)
+  href: api/VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.html#VaraniumSharp_Discord_Wrappers_CommandServiceWrapper_AddModulesAsync_System_Reflection_Assembly_System_IServiceProvider_
+  commentId: M:VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly,System.IServiceProvider)
+  fullName: VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync(System.Reflection.Assembly, System.IServiceProvider)
+  nameWithType: CommandServiceWrapper.AddModulesAsync(Assembly, IServiceProvider)
 - uid: VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.AddModulesAsync*
   name: AddModulesAsync
   href: api/VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.html#VaraniumSharp_Discord_Wrappers_CommandServiceWrapper_AddModulesAsync_

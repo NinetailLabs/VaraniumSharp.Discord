@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Interfaces.ICommandServiceWrapper.html",
-          "hash": "+JLnsFAV1MeLZ9BJTGagkw=="
+          "hash": "/0OHrNOm44fNy0zPcuYdNQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VaraniumSharp.Discord.Wrappers.CommandServiceWrapper.html",
-          "hash": "VkZYTzg80Ie0TPZl5MIDsA=="
+          "hash": "Zm+GpOUVbxxJPqnTp50UEA=="
         }
       },
       "is_incremental": false,
@@ -290,10 +290,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 16,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -302,16 +303,15 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
