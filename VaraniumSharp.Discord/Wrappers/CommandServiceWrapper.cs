@@ -35,9 +35,9 @@ namespace VaraniumSharp.Discord.Wrappers
         #region Public Methods
 
         /// <inheritdoc />
-        public async Task AddModulesAsync(Assembly assembly)
+        public async Task AddModulesAsync(Assembly assembly, IServiceProvider serviceProvider)
         {
-            await CommandService.AddModulesAsync(assembly);
+            await CommandService.AddModulesAsync(assembly, serviceProvider);
         }
 
         /// <inheritdoc />

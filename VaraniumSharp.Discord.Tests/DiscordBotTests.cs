@@ -28,7 +28,7 @@ namespace VaraniumSharp.Discord.Tests
             await sut.StartAsync();
 
             // assert
-            fixture.CommandServiceWrapperMock.Verify(t => t.AddModulesAsync(It.IsAny<Assembly>()), Times.Once());
+            fixture.CommandServiceWrapperMock.Verify(t => t.AddModulesAsync(It.IsAny<Assembly>(), It.IsAny<IServiceProvider>()), Times.Once());
             fixture.DiscordSocketClientWrapperMock.Verify(t => t.LoginAsync(), Times.Once);
             fixture.DiscordSocketClientWrapperMock.Verify(t => t.StartAsync(), Times.Once);
         }
@@ -46,7 +46,7 @@ namespace VaraniumSharp.Discord.Tests
             await sut.StartAsync();
 
             // assert
-            fixture.CommandServiceWrapperMock.Verify(t => t.AddModulesAsync(It.IsAny<Assembly>()), Times.Once());
+            fixture.CommandServiceWrapperMock.Verify(t => t.AddModulesAsync(It.IsAny<Assembly>(), It.IsAny<IServiceProvider>()), Times.Once());
         }
 
         [Test]

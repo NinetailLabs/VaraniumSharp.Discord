@@ -130,7 +130,7 @@ namespace VaraniumSharp.Discord
                 }
 
                 _logger.LogDebug("Registering command from {Assembly}", assemblyContainingCommands);
-                await _commandService.AddModulesAsync(assemblyContainingCommands);
+                await _commandService.AddModulesAsync(assemblyContainingCommands, _serviceProvider);
                 _modulesRegistered = true;
             }
             finally
