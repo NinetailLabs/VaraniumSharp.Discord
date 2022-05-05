@@ -37,7 +37,7 @@ namespace VaraniumSharp.Discord.Wrappers
         /// <inheritdoc />
         public async Task AddModulesAsync(Assembly assembly)
         {
-            await CommandService.AddModulesAsync(assembly);
+            await CommandService.AddModulesAsync(assembly, null);
         }
 
         /// <inheritdoc />
