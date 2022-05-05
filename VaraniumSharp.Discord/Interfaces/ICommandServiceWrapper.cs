@@ -25,8 +25,7 @@ namespace VaraniumSharp.Discord.Interfaces
         /// Add modules containing the command
         /// </summary>
         /// <param name="assembly">Assembly where command should be retrieved from</param>
-        /// <param name="serviceProvider">The <see cref="IServiceProvider"/> instance for your dependency injection solution. If one isn't being used, pass null</param>
-        Task AddModulesAsync(Assembly assembly, IServiceProvider serviceProvider);
+        Task AddModulesAsync(Assembly assembly);
 
         /// <summary>
         /// Executes a command

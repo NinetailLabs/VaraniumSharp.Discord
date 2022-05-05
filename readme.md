@@ -1,7 +1,7 @@
 # VaraniumSharp.Discord
 
 [![Build status](https://ci.appveyor.com/api/projects/status/tmbabteki5t2jypu/branch/master?svg=true)](https://ci.appveyor.com/project/DeadlyEmbrace/varaniumsharp-discord/branch/master)
-[![NuGet](https://img.shields.io/nuget/v/VaraniumSharp.Discord.svg)](https://www.nuget.org/packages/VaraniumSharp.Discord/)
+[![NuGet](https://img.shields.io/nuget/v/VaraniumSharp.Discord.svg)](https://www.nuget.org/packages/VaraniumSharp/)
 [![Coverage Status](https://coveralls.io/repos/github/NinetailLabs/VaraniumSharp.Discord/badge.svg?branch=master)](https://coveralls.io/github/NinetailLabs/VaraniumSharp.Discord?branch=master)
 
 VaraniumSharp.Discord is a VaraniumSharp add-on that wraps around [Discord.Net](https://www.nuget.org/packages/Discord.Net) that implements all logic required to manage a basic Discord socket bot.

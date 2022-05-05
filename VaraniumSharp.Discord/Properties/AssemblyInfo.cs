@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NineTail Labs")]
 [assembly: AssemblyProduct("VaraniumSharp.Discord")]
-[assembly: AssemblyCopyright("Copyright © NineTail Labs 2021")]
+[assembly: AssemblyCopyright("Copyright © NineTail Labs 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
